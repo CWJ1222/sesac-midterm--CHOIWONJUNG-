@@ -30,6 +30,10 @@
       body {
         background-color: #0ef841;
       }
+
+      p {
+        background-color: bisque;
+      }
       /*
       기준점
       - max-width: XXXpx
@@ -41,6 +45,10 @@
       */
 
       @media screen and (max-width: 540px) {
+        ul > div {
+          display: flex;
+          flex-direction: column;
+        }
       }
       @media screen and (max-width: 960px) {
       }

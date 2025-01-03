@@ -14,7 +14,7 @@ async function getTodos() {
       const div = document.createElement("div");
       const p = document.createElement("p");
 
-      p.innerText = user.id;
+      p.innerText = user.title;
       div.append(p);
       container.append(div);
     }
